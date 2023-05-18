@@ -7,4 +7,9 @@ export const ButtonContainer = styled.button`
     color: #DDDDDD;
     font-size: 24px;
     flex:1;
+    
+    &:hover{
+        cursor:pointer;
+        background-color: #151515;
+    }
 `

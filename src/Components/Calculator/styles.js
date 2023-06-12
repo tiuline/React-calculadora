@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const CalculatorStyle = styled.div`
+export const CalculatorContainer = styled.div`
     padding: 10px
 `
 

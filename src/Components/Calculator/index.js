@@ -1,10 +1,8 @@
-import React from "react";
 import Button from '../Button';
 import Input from '../Input';
 
-
+import {CalculatorContainer} from './styles'; 
 import {Container, Content, Row} from './styles'; 
-import { CalculatorStyle } from './styles';
 import {useState} from 'react';
 
 const Calculator = () => {
@@ -86,7 +84,7 @@ const Calculator = () => {
   };
 
   return (
-    <Calculator >
+    <CalculatorContainer >
       <Container>
         <Content>
           <Input value={currentNumber}/>
@@ -128,7 +126,7 @@ const Calculator = () => {
           </Row>
         </Content>
       </Container>
-    </Calculator>
+    </CalculatorContainer>
   );
 }
   
